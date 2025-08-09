@@ -70,11 +70,11 @@
 
         layer_2 {
             bindings = <
-&trans          &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &bt BT_SEL 4       &mmv MOVE_UP     &kp F1  &kp F2  &kp F3      &kp F4     &kp F5       &kp F6
-&trans          &bt BT_CLR    &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI    &rgb_ug RGB_TOG    &mmv MOVE_DOWN   &kp F7  &kp F8  &kp F9      &kp F10    &kp F11      &kp F12
-&out OUT_TOG    &out OUT_USB  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD    &rgb_ug RGB_ON     &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
-&bt BT_CLR_ALL  &out OUT_BLE  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &ext_power EP_TOG  &rgb_ug RGB_OFF    &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans          &trans        &trans           &trans           &trans             &trans             &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&trans          &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &bt BT_SEL 4       &mmv MOVE_UP     &kp F1  &kp F2  &kp F3  &kp F4   &kp F5    &kp F6
+&trans          &bt BT_CLR    &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI    &rgb_ug RGB_TOG    &mmv MOVE_DOWN   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11   &kp F12
+&out OUT_TOG    &out OUT_USB  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD    &rgb_ug RGB_ON     &mmv MOVE_LEFT   &trans  &trans  &trans  &trans   &kp LBRC  &kp RBRC
+&bt BT_CLR_ALL  &out OUT_BLE  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &ext_power EP_TOG  &rgb_ug RGB_OFF    &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans   &trans    &trans
+&trans          &trans        &trans           &trans           &trans             &trans             &mkp LCLK        &trans  &trans  &trans  &trans   &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
