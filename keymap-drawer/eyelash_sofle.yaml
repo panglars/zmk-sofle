@@ -54,13 +54,13 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-command$$
+  - LWIN
   - '2'
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - layer1
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - RIGHT GUI
+  - RWIN
   - {t: '$$mdi:keyboard-space$$', h: layer1}
   - $$mdi:apple-keyboard-option$$
   - {t: '''', s: '"'}
