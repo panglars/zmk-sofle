@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: layer1}
   - $$mdi:apple-keyboard-option$$
   - {t: '''', s: '"'}
-  - '3'
+  - $$mdi:apple-keyboard-control$$
   layer1:
   - $$mdi:printer-outline$$
   - F1
@@ -91,7 +91,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - F12
   - _
-  - KP PLUS
+  - +
   - $$mdi:apple-keyboard-caps$$
   - {t: '''', s: '"'}
   - $$mdi:skip-previous$$
@@ -107,13 +107,13 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '"'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - CUT
+  - COPY
+  - PASTE
   - INS
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - UNDO
+  - AGAIN
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '{'
@@ -174,7 +174,7 @@ layers:
   - OUT BLE
   - RGB EFR
   - RGB EFF
-  - EP TOG
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -259,4 +259,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
