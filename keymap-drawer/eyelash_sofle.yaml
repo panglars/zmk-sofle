@@ -24,7 +24,7 @@ layers:
   - J
   - L
   - U
-  - O
+  - Y
   - {t: ;, s: ':'}
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-control$$
