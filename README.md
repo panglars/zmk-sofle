@@ -1,3 +1,5 @@
+# Sofle
+
 - [中文](README.md)
 - [English](README_EN.md)
 
@@ -20,6 +22,8 @@
 
 如需 3D 打印的模型文件或者键盘有任何异常和故障，请联系 380465425@qq.com
 
-# Sofle 键位图
+## Sofle 键位图
+
+![Sofle 键位图](keymap-drawer/eyelash_sofle.svg)
 
 ![](./keymap-drawer/eyelash_sofle.svg)
