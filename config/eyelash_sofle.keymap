@@ -71,11 +71,11 @@
 
         base {
             bindings = <
-&kp ESC     &kp N1    &kp N2        &kp N3  &kp N4     &kp N5    &kp UP_ARROW     &kp N6         &kp N7       &kp N8       &kp N9   &kp N0     &kp BACKSPACE
-&lt 3 TAB   &kp Q     &kp W         &kp F   &kp P      &kp G     &kp DOWN_ARROW   &kp J          &kp L        &kp U        &kp Y    &kp SEMI   &kp BSLH
-&kp LCTRL   &kp A     &kp R         &kp S   &kp T      &kp D     &kp LEFT_ARROW   &kp H          &kp N        &kp E        &kp I    &kp O      &kp ENTER
-&kp LSHFT   &kp Z     &kp X         &kp C   &kp V      &kp B     &kp RIGHT_ARROW  &kp K          &kp M        &kp COMMA    &kp DOT  &kp FSLH   &kp RSHIFT
-&kp C_MUTE  &kp LWIN  &kp LEFT_ALT  &sl 3   &kp SPACE  &mo 1     &kp ENTER        &kp RIGHT_GUI  &lt 3 SPACE  &lt 1 SPACE  &mo 2    &kp RCTRL
+&kp ESC     &kp N1    &kp N2        &kp N3  &kp N4     &kp N5    &kp UP_ARROW     &kp N6         &kp N7  &kp N8       &kp N9   &kp N0     &kp BACKSPACE
+&lt 3 TAB   &kp Q     &kp W         &kp F   &kp P      &kp G     &kp DOWN_ARROW   &kp J          &kp L   &kp U        &kp Y    &kp SEMI   &kp BSLH
+&kp LCTRL   &kp A     &kp R         &kp S   &kp T      &kp D     &kp LEFT_ARROW   &kp H          &kp N   &kp E        &kp I    &kp O      &kp ENTER
+&kp LSHFT   &kp Z     &kp X         &kp C   &kp V      &kp B     &kp RIGHT_ARROW  &kp K          &kp M   &kp COMMA    &kp DOT  &kp FSLH   &kp RSHIFT
+&kp C_MUTE  &kp LWIN  &kp LEFT_ALT  &sl 3   &kp SPACE  &mo 1     &kp ENTER        &kp RIGHT_GUI  &sl 3   &lt 1 SPACE  &mo 2    &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -110,11 +110,11 @@
 
         symbol {
             bindings = <
-&trans  &trans     &trans       &trans                &trans                 &trans               &trans  &trans     &trans            &trans             &trans            &trans           &trans
-&trans  &kp EXCL   &kp AT_SIGN  &kp POUND             &kp DOLLAR             &kp PERCENT          &trans  &kp CARET  &kp AMPERSAND     &kp ASTERISK       &kp QUESTION      &trans           &trans
-&trans  &kp PLUS   &kp EQUAL    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES    &trans  &kp COLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans
-&trans  &kp GRAVE  &kp TILDE    &kp MINUS             &kp UNDERSCORE         &kp SQT              &trans  &kp PIPE   &kp BACKSLASH     &kp LESS_THAN      &kp GREATER_THAN  &kp SLASH        &trans
-&trans  &trans     &trans       &trans                &trans                 &trans               &trans  &trans     &trans            &trans             &trans            &trans
+&trans  &trans                &trans                 &trans          &trans      &trans               &trans  &trans     &trans            &trans             &trans            &trans           &trans
+&trans  &kp EXCL              &kp AT_SIGN            &kp POUND       &kp DOLLAR  &kp PERCENT          &trans  &kp CARET  &kp AMPERSAND     &kp ASTERISK       &kp QUESTION      &kp SEMICOLON    &trans
+&trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp MINUS   &kp DOUBLE_QUOTES    &trans  &kp COLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans
+&trans  &kp GRAVE             &kp TILDE              &kp PLUS        &kp EQUAL   &kp SQT              &trans  &kp PIPE   &kp BACKSLASH     &kp LESS_THAN      &kp GREATER_THAN  &kp SLASH        &trans
+&trans  &trans                &trans                 &trans          &trans      &trans               &trans  &trans     &trans            &trans             &trans            &trans
             >;
 
             display-name = "layer3";
