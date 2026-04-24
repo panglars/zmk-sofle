@@ -61,7 +61,7 @@ layers:
   - layer1
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - RIGHT GUI
-  - {t: '$$mdi:keyboard-space$$', h: layer3}
+  - {t: layer3, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-space$$', h: layer1}
   - layer2
   - $$mdi:apple-keyboard-control$$
@@ -220,13 +220,13 @@ layers:
   - '&'
   - '*'
   - '?'
+  - {t: ;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - +
-  - {t: '=', s: +}
   - (
   - )
+  - _
+  - {t: '-', s: _}
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - ':'
@@ -238,8 +238,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - '~'
-  - {t: '-', s: _}
-  - _
+  - +
+  - {t: '=', s: +}
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
