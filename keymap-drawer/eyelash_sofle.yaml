@@ -29,9 +29,9 @@ layers:
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-control$$
   - A
-  - R
-  - S
-  - T
+  - {t: R, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: layer1}
+  - {t: T, h: layer3}
   - D
   - $$mdi:arrow-left-bold$$
   - H
@@ -44,29 +44,29 @@ layers:
   - Z
   - X
   - C
-  - V
+  - {t: V, h: '$$mdi:apple-keyboard-control$$'}
   - B
   - $$mdi:arrow-right-bold$$
   - K
-  - M
+  - {t: M, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - LWIN
-  - layer2
+  - '&key_repeat'
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - layer1
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - RWIN
   - {t: '$$mdi:keyboard-space$$', h: layer1}
-  - $$mdi:apple-keyboard-option$$
-  - {t: '''', s: '"'}
+  - layer3
+  - layer2
   - $$mdi:apple-keyboard-control$$
   layer1:
-  - $$mdi:printer-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -78,9 +78,9 @@ layers:
   - F8
   - F9
   - F10
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '`', s: '~'}
-  - '~'
+  - PRINTSCREEN
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
@@ -90,12 +90,12 @@ layers:
   - F11
   - $$mdi:arrow-up-bold$$
   - F12
-  - _
-  - +
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:skip-previous$$
-  - $$mdi:play-pause$$
+  - {t: '$$mdi:play-pause$$', type: held}
   - $$mdi:skip-next$$
   - $$mdi:pan-down$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -103,10 +103,10 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - '"'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - CUT
   - COPY
   - PASTE
@@ -114,16 +114,16 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - UNDO
   - AGAIN
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - '{'
-  - '}'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
@@ -185,7 +185,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -193,7 +193,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   layer3:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -226,7 +226,7 @@ layers:
   - +
   - {t: '=', s: +}
   - (
-  - )
+  - {t: ), type: held}
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - ':'
@@ -241,7 +241,7 @@ layers:
   - {t: '-', s: _}
   - _
   - {t: '''', s: '"'}
-  - {t: '1', s: '!'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '|'
   - {t: \, s: '|'}
   - <
@@ -257,7 +257,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer4:
