@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: layer3}
   - Q
   - W
   - F
@@ -29,9 +29,9 @@ layers:
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-control$$
   - A
-  - {t: R, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, h: layer1}
-  - {t: T, h: layer3}
+  - R
+  - S
+  - T
   - D
   - $$mdi:arrow-left-bold$$
   - H
@@ -44,25 +44,25 @@ layers:
   - Z
   - X
   - C
-  - {t: V, h: '$$mdi:apple-keyboard-control$$'}
+  - V
   - B
   - $$mdi:arrow-right-bold$$
   - K
-  - {t: M, h: '$$mdi:apple-keyboard-option$$'}
+  - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - LWIN
-  - '&key_repeat'
   - $$mdi:apple-keyboard-option$$
+  - {t: layer3, h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:keyboard-space$$
   - layer1
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - RWIN
-  - {t: '$$mdi:keyboard-space$$', h: layer1}
   - layer3
+  - RIGHT GUI
+  - {t: '$$mdi:keyboard-space$$', h: layer1}
   - layer2
   - $$mdi:apple-keyboard-control$$
   layer1:
@@ -95,7 +95,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:skip-previous$$
-  - {t: '$$mdi:play-pause$$', type: held}
+  - $$mdi:play-pause$$
   - $$mdi:skip-next$$
   - $$mdi:pan-down$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -123,11 +123,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer2:
@@ -209,7 +209,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - '!'
   - '@'
   - '#'
@@ -226,7 +226,7 @@ layers:
   - +
   - {t: '=', s: +}
   - (
-  - {t: ), type: held}
+  - )
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
   - ':'
@@ -251,13 +251,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer4:
