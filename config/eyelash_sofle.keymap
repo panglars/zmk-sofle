@@ -69,7 +69,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer0 {
+        base {
             bindings = <
 &kp ESC     &kp N1    &kp N2  &kp N3        &kp N4     &kp N5    &kp UP_ARROW     &kp N6    &kp N7       &kp N8         &kp N9   &kp N0     &kp BACKSPACE
 &kp TAB     &kp Q     &kp W   &kp F         &kp P      &kp G     &kp DOWN_ARROW   &kp J     &kp L        &kp U          &kp Y    &kp SEMI   &kp BSLH
@@ -82,7 +82,7 @@
             display-name = "LAYER0";
         };
 
-        layer_1 {
+        fn {
             bindings = <
 &kp PSCRN      &kp F1     &kp F2      &kp F3      &kp F4       &kp F5            &mmv MOVE_UP     &kp F6      &kp F7       &kp F8            &kp F9             &kp F10         &kp DEL
 &kp GRAVE      &kp TILDE  &mkp LCLK   &mkp MCLK   &mkp RCLK    &msc SCRL_UP      &mmv MOVE_DOWN   &kp PG_UP   &kp F11      &kp UP            &kp F12            &kp UNDERSCORE  &kp PLUS
@@ -95,7 +95,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_2 {
+        board {
             bindings = <
 &trans          &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_UP     &kp F1  &kp F2  &kp F3  &kp F4   &kp F5    &kp F6
 &trans          &bt BT_CLR    &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &rgb_ug RGB_TOG    &mmv MOVE_DOWN   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11   &kp F12
@@ -108,13 +108,13 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_3 {
+        symbol {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans       &trans                &trans                 &trans               &trans  &trans     &trans            &trans             &trans            &trans           &trans
+&trans  &kp EXCL   &kp AT_SIGN  &kp POUND             &kp DOLLAR             &kp PERCENT          &trans  &kp CARET  &kp AMPERSAND     &kp ASTERISK       &kp QUESTION      &trans           &trans
+&trans  &kp PLUS   &kp EQUAL    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES    &trans  &kp COLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans
+&trans  &kp GRAVE  &kp TILDE    &kp MINUS             &kp UNDERSCORE         &kp SQT              &kp N1  &kp PIPE   &kp BACKSLASH     &kp LESS_THAN      &kp GREATER_THAN  &kp SLASH        &trans
+&trans  &trans     &trans       &trans                &trans                 &trans               &trans  &trans     &trans            &trans             &trans            &trans
             >;
 
             display-name = "layer3";
